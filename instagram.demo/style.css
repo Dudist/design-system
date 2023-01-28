@@ -1,0 +1,35 @@
+@import url(/styles/colors/colors/colors.css);
+@import url(/components/buttons/buttons/buttons.css);
+@import url(/styles/colors/elevation/elevation.css);
+@import url(/styles/colors/shapes/shapes.css);
+@import url(/components/buttons/card/cards.css);
+
+
+body {
+    font-family: sans-serif;
+}
+.feed {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.feed > * {
+    margin-bottom: 1em;
+}
+.action-list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    gap: 0.5em;
+
+    display: flex;
+    margin-top: 1em;
+}
+.action-list > :last-child {
+    margin-left: auto;
+}
